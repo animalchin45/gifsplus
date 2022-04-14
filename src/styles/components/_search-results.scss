@@ -1,0 +1,30 @@
+.search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-flow: dense;
+    grid-gap: 1rem;
+    justify-content: center;
+    width: 95%;
+
+    &--img {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 60rem) {
+    .search-results {
+        grid-gap: .5rem;
+        width: 95%;
+
+        &--img {
+            border-radius: 3px;
+        }
+    }
+}

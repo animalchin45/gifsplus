@@ -1,0 +1,5 @@
+/dist
+.env
+/node_modules
+giphy_key.txt
+.vercel

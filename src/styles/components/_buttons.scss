@@ -1,0 +1,26 @@
+.btn {
+    background-color: $color-primary;
+    border: none;
+    box-shadow: 0 3px 3px $color-black, 4px 4px $color-primary-shadow;
+    cursor: pointer;
+    height: 4.5rem;
+    width: 11rem;
+
+    &:active {
+        box-shadow: 2px 2px $color-primary-shadow;
+        transform: translateX(1px) translateY(1px);
+    }
+
+    &--modal {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 60rem) {
+    .btn {
+
+        &--modal {
+            margin-top: 1rem;
+        }
+    }
+}

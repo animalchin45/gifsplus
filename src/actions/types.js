@@ -1,0 +1,6 @@
+export const FETCH_TRENDING = 'FETCH_TRENDING'
+export const FETCH_SEARCH = 'FETCH_SEARCH'
+export const TERM = 'TERM'
+export const SELECT_GIF = 'SELECT_GIF'
+export const DESELECT_GIF = 'DESELECT_GIF'
+export const OPEN_MODAL = 'OPEN_MODAL'

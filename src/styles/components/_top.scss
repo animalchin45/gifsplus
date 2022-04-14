@@ -1,0 +1,21 @@
+.top {
+    grid-column: 2 / 3;
+    opacity: 1;
+    transition: $fade-in-slow ease-in-out;
+    z-index: 4;
+
+    &--hide {
+        opacity: 0;
+        transform: translateY(3rem);
+        transition: $fade-in-slow ease-in-out;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 91vh;
+        width: 100%;
+        z-index: 4;
+    }
+}
