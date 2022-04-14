@@ -49,7 +49,7 @@ const validate = (formValues) => {
     const errors = {}
 
     if(!formValues.search) {
-        errors.search = 'Oops! What gifs are you looking for?'
+        errors.search = 'What gifs are you looking for?'
     }
 
     return errors
