@@ -18,7 +18,7 @@ module.exports = {
     module: {
         rules: [
             {       
-                test: /\.(png|jpg|gif)$/,
+                test: /\.(png|jpg|gif|ico)$/,
                 use: [{
                     loader: 'file-loader',
                     options: {
@@ -82,7 +82,7 @@ module.exports = {
             title: "Gifs Plus",
             template: 'src/index.hbs',
             description: 'gifs for half the price!',
-            favicon: './src/img/favicon.png'
+            favicon: './src/img/favicon.ico'
         }),
         new webpack.DefinePlugin({
             'process.env': JSON.stringify(process.env)
