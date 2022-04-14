@@ -1,4 +1,5 @@
 /dist
+webpack.dev.config.js
 .env
 /node_modules
 giphy_key.txt
