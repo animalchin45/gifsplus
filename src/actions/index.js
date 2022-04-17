@@ -17,7 +17,7 @@ export const fetchTrending = () => async dispatch => {
         params: {
             api_key: KEY,
             limit: 50,
-            offset: getRandomNum(1 , 1999),
+            offset: getRandomNum(1 , 50),
             rating: 'r'
         }
     })
